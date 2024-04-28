@@ -6,6 +6,7 @@ file(GLOB_RECURSE src src/*.cc)
 file(GLOB_RECURSE include include/*.h)
 
 add_library(myadd ${src} ${include})
+add_library(Mymath::myadd ALIAS myadd)
 target_include_directories(myadd PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>

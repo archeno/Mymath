@@ -1,13 +1,14 @@
-## cmake 示例项目
- 本项目作为基于cmake构建系统的示例项目。
-## 使用到的技术点
-### CMake关键语法
-- cmake 现代用法-基于对象传递依赖
-- 创建库`add_library`
-- 引用外部库 `find_package`
-### 配置 编译
-- 配置： `make config`
-- 编译： `make build`
-- 清理   `make clean`
+## cmake 示锟斤拷锟斤拷目
+ 锟斤拷锟斤拷目锟斤拷为锟斤拷锟斤拷cmake锟斤拷锟斤拷系统锟斤拷示锟斤拷锟斤拷目锟斤拷
+## 使锟矫碉拷锟侥硷拷锟斤拷锟斤拷
+### CMake锟截硷拷锟斤法
+- cmake 锟街达拷锟矫凤拷-锟斤拷锟节讹拷锟襟传碉拷锟斤拷锟斤拷
+- 锟斤拷锟斤拷锟斤拷`add_library`
+- 锟斤拷锟斤拷锟解部锟斤拷 `find_package`
+### 锟斤拷锟斤拷 锟斤拷锟斤拷
+- 锟斤拷锟矫ｏ拷 `make config`
+- 锟斤拷锟诫： `make build`
+- 锟斤拷锟斤拷   `make clean`
 ### Github Workflow
-创建workflow 当执行push 时自动执行编译运行
+锟斤拷锟斤拷workflow 锟斤拷执锟斤拷push 时锟皆讹拷执锟叫憋拷锟斤拷锟斤拷锟斤拷
+ff

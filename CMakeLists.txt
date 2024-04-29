@@ -12,11 +12,8 @@ target_include_directories(myadd PUBLIC
     $<INSTALL_INTERFACE:include>
 )
 
-option(BUILD_TEST "build test and run " ON)
-add_subdirectory(test)
-
-
-
-
-
+if(PROJECT_IS_TOP_LEVEL)
+message(STATUS "project is at top levl, add subdirectory test")
+    add_subdirectory(test)
+endif()
 

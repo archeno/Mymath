@@ -1,0 +1,10 @@
+name: ubuntu-latest
+run-name: build and test my program
+on: [push]
+jobs:
+    build-and-run:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - run: make clean & make build
+            

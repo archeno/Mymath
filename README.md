@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
 ## 项目说明
  本项目是基于现代cmake构建系统，包括基于对象方式传递依赖和通过find_package引入第三方依赖，
  通过GTest开源框架进行测试，通过Github Workflow 进行自动化测试

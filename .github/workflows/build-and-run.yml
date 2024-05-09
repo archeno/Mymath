@@ -1,4 +1,4 @@
-name: ubuntu-latest
+name: build
 run-name: build and test my program
 on: [push]
 jobs:

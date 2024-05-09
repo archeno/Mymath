@@ -1,4 +1,3 @@
-![Static Badge](https://img.shields.io/badge/build-passing-brightgreen)
 ![GitHub Tag](https://img.shields.io/github/v/tag/archeno/Mymath?color=brightgreen)
 [![GitHub Build Badge](https://github.com/archeno/Mymath/actions/workflows/build-and-run.yml/badge.svg)](https://github.com/archeno/Mymath/actions/workflows/build-and-run.yml)
 ## 项目说明

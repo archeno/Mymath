@@ -10,6 +10,7 @@
 - 添加库 `add_library`
 - 引用外部资源 `find_package`
 ### Makefile
+> Makefile 只是单纯的封装了cmake 常用指令，方便用户执行，非必须
 - 构建 `make config`
 - 编译 `make build`
 - 清除  `make clean`
